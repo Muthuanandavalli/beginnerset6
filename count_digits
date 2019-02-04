@@ -1,0 +1,4 @@
+n=int(input())
+s=str(n)
+c=len(s)
+print(c)
