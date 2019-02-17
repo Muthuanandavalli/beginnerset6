@@ -6,4 +6,7 @@ while(N>0):
     N=N//10
 for i in range(len(lt)-1,-1,-1):
     x=lt[i]
-    print(x,end=" ")
+    if i==0:
+        print(x,end="")
+    else:
+        print(x,end=" ")
